@@ -1,15 +1,17 @@
 import discord
 import asyncio
-import os
 
 def run_bot():
     disc_intent = discord.Intents.default()
     disc_intent.message_content= True
     client = discord.Client(intents=disc_intent)
+    TOKEN = ('MTE4MTMyMjc0NDkyNzg5NTYwNg.GeGwJI.poM4XKQ5MFZ0Xr1b2KU3q1Rpn8dVcXqMB9Ab7M')
 
-    TOKEN = os.getenv('TOKEN')
+    @client.event
+    async def on_ready():
+        print(f'We have logged in as {client.user}')
 
-    #Isabelle takes in and sends out responses
+    #Snoopy takes in and sends out responses
     @client.event
     async def on_message(message):
 
@@ -24,3 +26,5 @@ def run_bot():
         if message.content.startswith("!help"):
             response = response.request(message.content)
             await message.channel.send(response)
+            
+    client.run(TOKEN)
