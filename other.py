@@ -1,8 +1,9 @@
 import tkinter as tk
+import messages
 
-#main window
+#window
 window = tk.Tk()
-window.title('Merry Christmas!')
+window.title('Ho Ho Ho!')
 window.geometry('800x800')
 
 #run
