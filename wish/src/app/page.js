@@ -16,20 +16,20 @@ export default function Home() {
       <link rel="icon" href="/favicon.ico" />
       <body id='background'>
         <div className={styles.homeButton}>
-          <h1>About Me</h1>
+          <h1></h1>
         </div>
         <div className={styles.about1}>
           <div className={styles.title}>
-            My name is Jamie
+            Merry Christmas!
           </div>
         </div>
         <div className={styles.about2}>
           <div>
             <Image
-              src='/aboutmehero.jpg'
+              src='/snoopyhero.jpg'
               width={850}
               height={400}
-              alt='stardew top image'
+              alt='snoopy christmas'
             />
           </div>
           <p>
@@ -37,7 +37,7 @@ export default function Home() {
             Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
             Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
             Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-          </p> 
+          </p>
           <div className={styles.decoration}>
             <p>⊹˚₊‧────────────────────‧₊˚⊹⊹˚₊‧─────────────────────‧₊˚⊹</p>
           </div>
@@ -46,7 +46,16 @@ export default function Home() {
             Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
             Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
             Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-          </p> 
+          </p>
+          <div className={styles.decoration}>
+            <p>⊹˚₊‧────────────────────‧₊˚⊹⊹˚₊‧─────────────────────‧₊˚⊹</p>
+          </div>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
         </div>
         <footer>
           <div id='footerBG'>
