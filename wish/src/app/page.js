@@ -14,10 +14,8 @@ export default function Home() {
       <meta charSet="UTF-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <link rel="icon" href="/favicon.ico" />
+      <script src='../vendor/snow.js'defer/>
       <body id='background'>
-        <div className={styles.homeButton}>
-          <h1></h1>
-        </div>
         <div className={styles.about1}>
           <div className={styles.title}>
             Merry Christmas!
@@ -27,8 +25,8 @@ export default function Home() {
           <div>
             <Image
               src='/snoopyhero.jpg'
-              width={850}
-              height={400}
+              width={650}
+              height={300}
               alt='snoopy christmas'
             />
           </div>
